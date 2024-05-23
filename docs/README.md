@@ -9,7 +9,22 @@ This repository contains the code to generate the visualization:
 [`radar.js`](/src/radar.js) (based on [d3.js v4](https://d3js.org)).
 Feel free to use and adapt it for your own purposes.
 
+![tech radar example](images/tech-radar.excalidraw.png)
+
+
 ## Usage
+
+
+```mermaid
+flowchart TB
+  A[include `d3.js` and `radar.js`]
+  B[insert an empty `svg` tag]
+  C[configure the radar visualization]
+
+  A --> B
+  B --> C
+```
+---
 
 1. include `d3.js` and `radar.js`:
 
