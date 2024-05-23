@@ -1,0 +1,11 @@
+body:
+- type: input
+  id: link
+  attributes:
+    label: "Technology home page"
+    description: "Please provide a link to the technology home page"
+- type: textarea
+  id: summary
+  attributes:
+    label: "Technology summary"
+    description: "Please provide a summary of this technology"
